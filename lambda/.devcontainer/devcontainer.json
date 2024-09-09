@@ -1,0 +1,16 @@
+{
+    // "image": "domamysl-backend-code",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python@2024.11.2024071403",
+                "ms-python.isort@2023.13.11511010",
+                "ms-python.pylint@2023.11.13481007",
+                "ms-python.mypy-type-checker@2023.9.11861016",
+                "ms-python.black-formatter@2024.2.0",  // 2024.3.11501016",
+                "ms-azuretools.vscode-docker@1.29.1"
+            ]
+        }
+    }
+}
