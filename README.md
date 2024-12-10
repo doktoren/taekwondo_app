@@ -4,7 +4,7 @@ Note that the app is mostly in Danish.
 
 I made this app after discussions in my local taekwondo club on how to easily track the participation of members. That is; to be able to answer the question "have X participated sufficiently to be allowed next graduation?"
 
-Many similar apps exists. But those I tried either have ads, are paid or are too complex to use because of all the unnecessary functionality.
+Many similar apps exists. But those I have tried either have ads, are paid or are too complex to use because of all the unnecessary functionality.
 
 If I had spent more time I probably would have found a useful app though. The primary reason for building the app was for me to get a bit experience with app building and seeing how much the o1-preview model can help you build something from scratch.
 
