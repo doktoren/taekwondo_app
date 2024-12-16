@@ -4,12 +4,11 @@ Note that the app is mostly in Danish.
 
 I made this app after discussions in my local taekwondo club on how to easily track the participation of members. That is; to be able to answer the question "have X participated sufficiently to be allowed next graduation?"
 
-Many similar apps exists. But those I have tried either have ads, are paid or are too complex to use because of all the unnecessary functionality.
+Many similar apps exists. Those I have tried either have ads, are paid or are too complex to use because of all the unnecessary functionality.
 
 If I had spent more time I probably would have found a useful app though. The primary reason for building the app was for me to get a bit experience with app building and seeing how much the o1-preview model can help you build something from scratch.
 
-With my extensive Python experience I decided to build the API myself and leave just the Flutter app to the o1-preview model. The experiment succeeded; I made very little tweaking of the Flutter app myself and almost everything was produced by o1-preview. I basically had the role of a product owner and just had to state the requirements clearly to the o1-preview model. The [gpt directory](./gpt) contains the prompts I used (except for the first two that accidentally got deleted).
-
+With my extensive Python experience I decided to build the API myself and leave just the Flutter app to the o1-preview model. The experiment succeeded; I made very little tweaking of the Flutter app myself and almost everything was produced by o1-preview. I basically had the role of a product owner and just had to state the requirements clearly to the o1-preview model. The [gpt directory](./gpt) contains the prompts I used (except for the first two that I forgot to keep). It has taken around 50 working hours in total. 
 
 ## Table of Contents
 
@@ -50,6 +49,8 @@ Amazon EventBridge is used to call the reset test setup action once per hour.
 I didn't find a good way to cheaply host a database instance. Given the very small deployment scale I chose to go with Amazon S3 as data storage. Race conditions are avoided by restricting the allowed concurrency of the Lambda function to 1. The resulting setup has a negligible cost in the order of a few dollars a year.
 
 I did not set up a separate DNS entry for the app as I didn't find it important. New users will be emailed the URL and authentication/login code.
+
+Also, I have not bothered to setup any monitoring. The solution is based on solid hosted components like S3 and Lambda and the cost of not reacting quickly to a error is low.
 
 ## Features
 
