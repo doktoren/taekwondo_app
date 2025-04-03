@@ -365,4 +365,122 @@ final List<Belt> allBelts = [
       },
     },
   ),
+  Belt(
+    level: -1,
+    name: '1. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+        'Haktari-seogi': 'Tranestand',
+      },
+      'Håndteknik': {
+        'Batangson teok chigi': 'Slag mod hage m. håndrod',
+        'Hansonnal momtong anmakki': 'Enkelt indadgående knivhåndsblokering',
+        'Keumgang makki': 'Diamant blokering',
+        'Keun-dolcheogi': 'Stort hængsel',
+        'Santeul-makki': 'Bjerg blokering',
+        'Anpalmok hecheyomakki': 'Midter sektion adskille blokering',
+      },
+      'Benteknik': {
+      },
+      'Teori': {
+      },
+    },
+  ),
+  Belt(
+    level: -2,
+    name: '2. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+      },
+      'Håndteknik': {
+        'Sonnal arae hechyo makki': 'Lav sektion "adskille" blokering m. knivhånd',
+        'Keumgang momtong makki': 'Diamant blokering i midtersektion',
+        'Jageun dolcheogi': 'Lille hængsel',
+        'Miteuro paegi': 'Trækker rundt',
+      },
+      'Benteknik': {
+      },
+      'Teori': {
+      },
+    },
+  ),
+  Belt(
+    level: -3,
+    name: '3. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+      },
+      'Håndteknik': {
+        'Geodeureo eolgol yeop makki': 'Høj hjælpe side blokering',
+        'Hechyo santeul makki': '"Adskille" bjerg blokering',
+        'Dan gyo teok-chigi': 'En hånd trækker og den anden udfører apchigi (deungjumeok)',
+        'Meonge-chigi': 'Albuestød til siderne',
+      },
+      'Benteknik': {
+        'Momdolmyeo yeopchagi': 'Drej krop og udfør yeopchagi',
+      },
+      'Teori': {
+      },
+    },
+  ),
+  Belt(
+    level: -4,
+    name: '4. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+      },
+      'Håndteknik': {
+        'Sonnal arae eotgeoreo makki': 'Lav krydshåndsblokering m. knivhånd',
+        'Sonnaldeung momtong makki': 'Omvendt knivhåndsblokering i midter sektion',
+        'Keureo-olligi': 'Trækker opad',
+        'Hwangso makki': 'Okse blokering',
+        'Sonbadak geodeureo yeop makki': 'Håndfladen hjælper sideblokering',
+        'Bawi milgi': '"Skubber en stor sten"',
+        'Chet-tan-jireugi': 'Begge jumeok udfører slag i momtong',
+      },
+      'Benteknik': {
+      },
+      'Teori': {
+      },
+    },
+  ),
+  Belt(
+    level: -5,
+    name: '5. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+      },
+      'Håndteknik': {
+        'Hansonnal eolgul makki': 'Enkelt knivhåndsblokering i høj sektion',
+        'Keumgang ap jireugi': 'Diamant fremadgående slag i midtersektion',
+        'Me-jumeok yeop pyojeok chigi': 'Pletslag til siden med lillefingersiden af knytnæve',
+      },
+      'Benteknik': {
+      },
+      'Teori': {
+      },
+    },
+  ),
+  Belt(
+    level: -6,
+    name: '6. dan. - Sort bælte',
+    categories: {
+      'Stand': {
+      },
+      'Håndteknik': {
+        'Nalgae pyogi': 'Spredte vinger',
+        'Bam-jumeok sosum jireugi': 'Kastanje-næve slag mod hals',
+        'Hwidullo makki': '”Skubbe væk”',
+        'Hwidullo jabadangkigi': '”Fange og skubbe væk”',
+        'Keumgang yeop jireugi': 'Diamant knytnæveslag til siden',
+        'Taesan milgi': 'Skubber et stort bjerg',
+        'Sonnal oesanteul makki': 'En hånds bjerg blokering med knivhånd',
+        'An-palmok momtong biteuro makki': 'Vride blokering med inderside af underarm',
+      },
+      'Benteknik': {
+      },
+      'Teori': {
+      },
+    },
+  ),
 ];

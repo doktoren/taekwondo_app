@@ -2,6 +2,16 @@
 
 See the README one level op for a short intro.
 
+<!--
+pubspec.yaml
+
+
+* `README.md`: This readme
+* `build_prod.sh`: Script for building the production version of the web app
+* `build_test.sh`: Script for building the test version of the web app
+* `pubspec.yaml`:
+-->
+
 [Flutter online documentation](https://docs.flutter.dev/)
 
 ## CloudFront config
